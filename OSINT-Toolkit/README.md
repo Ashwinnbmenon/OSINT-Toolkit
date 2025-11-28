@@ -42,27 +42,27 @@ Copy code
 pip install requests
 🚀 Usage
 Run any script with Python:
-
-bash
-Copy code
-python email_checker.py
-python social_info.py
-python website_info.py
-python location_finder.py
-Follow prompts in each script to enter emails, usernames, domains, or IP addresses.
-
+```
 🎬 Demo
-Email Checker:
 
-pgsql
-Copy code
+**Email Checker:**
+
+```text
 Enter email to check: example@mail.com
 No breaches found for example@mail.com
-Social Media Info:
-
-yaml
-Copy code
-Enter username: john_doe
-Twitter: https://twitter.com/john_doe
-Instagram: https://instagram.com/john_doe
-LinkedIn: https://linkedin.com/in/john_doe
+```
+**Website Info**
+```text
+Enter domain to check: example.com
+IP Address: 93.184.216.34
+Server: Apache/2.4.41 (Ubuntu)
+Location: United States
+```
+**IP Location Finder**
+```text
+Enter IP address: 8.8.8.8
+Country: United States
+Region: California
+City: Mountain View
+ISP: Google LLC
+```
