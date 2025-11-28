@@ -1,5 +1,10 @@
 # 🕵️ OSINT-Toolkit
 
+![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/OSINT-Toolkit?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/yourusername/OSINT-Toolkit?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/OSINT-Toolkit?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/yourusername/OSINT-Toolkit?style=flat-square)
+
 A beginner-friendly **OSINT (Open Source Intelligence) toolkit** for cybersecurity students.  
 Contains Python scripts to gather public information from emails, social media, websites, and IP addresses.
 
@@ -16,15 +21,6 @@ Contains Python scripts to gather public information from emails, social media, 
 
 ## 📁 Project Structure
 
-OSINT-Toolkit/
-├─ README.md
-├─ email_checker.py
-├─ social_info.py
-├─ website_info.py
-└─ location_finder.py
-
-yaml
-Copy code
 
 ---
 
@@ -35,34 +31,34 @@ Copy code
 ```bash
 git clone https://github.com/yourusername/OSINT-Toolkit.git
 cd OSINT-Toolkit
-Install dependencies:
-
-bash
-Copy code
+----
+## Install dependencies
 pip install requests
-🚀 Usage
-Run any script with Python:
+-----
 
-bash
-Copy code
+🚀 Usage
 python email_checker.py
 python social_info.py
 python website_info.py
 python location_finder.py
-Follow prompts in each script to enter emails, usernames, domains, or IP addresses.
 
 🎬 Demo
-Email Checker:
-
-pgsql
-Copy code
 Enter email to check: example@mail.com
 No breaches found for example@mail.com
-Social Media Info:
 
-yaml
-Copy code
+Social Media Info:
 Enter username: john_doe
 Twitter: https://twitter.com/john_doe
 Instagram: https://instagram.com/john_doe
 LinkedIn: https://linkedin.com/in/john_doe
+
+Website Info:
+Enter website domain: example.com
+IP Address: 93.184.216.34
+
+IP Location Finder:
+Enter IP address: 8.8.8.8
+City: Mountain View
+Region: California
+Country: US
+
